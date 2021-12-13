@@ -1,0 +1,369 @@
+@media (max-width: 1200px) {
+  main {
+    .get {
+      &__wrapper {
+        grid-template-columns: 260px 500px;
+      }
+    }
+
+    .collect {
+      &__circle {
+        right: 0px;
+        width: 46%;
+      }
+      &__diagrama {
+        width: 50%;
+      }
+      &__map {
+        width: 90%;
+      }
+      &__data {
+        width: 80%;
+      }
+    }
+
+    .lead {
+      padding: 100px 100px;
+      &__grid {
+        grid-template-columns: 400px 200px;
+        grid-template-rows: 400px;
+      }
+    }
+
+    .blog {
+      padding: 100px 100px;
+      &__wrapper {
+        gap: 30px;
+      }
+    }
+
+    .touch {
+      &__item1 {
+        &__img {
+          width: 100%;
+          height: 100%;
+        }
+        &__subtitle {
+          padding-top: 200px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  header {
+    .header {
+      flex-wrap: wrap;
+      &__menu {
+        margin-top: 20px;
+        &_list:not(:last-child) {
+          padding-right: 35px;
+        }
+        &_links {
+          font-size: 12px;
+        }
+      }
+    }
+    .main {
+      &__title {
+        font-size: 90px;
+      }
+      &__desc {
+        margin-top: 80px;
+      }
+    }
+  }
+
+  main {
+    .get {
+      padding: 155px 70px 70px 70px;
+      &__wrapper {
+        grid-template-columns: 260px 300px;
+        gap: 20px;
+        grid-template-rows: 500px;
+      }
+    }
+    .collect {
+      padding: 58px 80px;
+    }
+    .lead {
+      padding: 80px;
+      &__grid {
+        grid-template-columns: 300px 200px;
+        grid-template-rows: 450px;
+        gap: 30px;
+      }
+    }
+    .power {
+      &__read {
+        right: 20px;
+      }
+      &__btn {
+        right: 60px;
+      }
+    }
+    .blog {
+      padding: 80px;
+      &__items {
+        max-width: 250px;
+        &__img {
+          width: 100%;
+        }
+        &__title {
+          font-size: 16px;
+        }
+      }
+    }
+    .touch {
+      padding: 80px;
+      &__wrapper {
+        grid-template-columns: 300px 300px;
+        gap: 50px;
+      }
+      &__item1 {
+        &__title {
+          font-size: 33px;
+          max-width: 240px;
+          padding-left: 42px;
+        }
+        &__subtitle {
+          padding-top: 180px;
+          padding-left: 42px;
+          max-width: 240px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    header {
+      padding: 50px 30px 100px;
+      .header {
+        &__menu {
+          &_list:not(:last-child) {
+            padding-right: 22px;
+          }
+        }
+      }
+      .main {
+        &__title {
+          font-size: 70px;
+          line-height: 74px;
+        }
+      }
+      .cookies {
+        width: 480px;
+        &__subtitle {
+          max-width: 250px;
+        }
+      }
+    }
+    main {
+      .get {
+        padding: 155px 50px 70px 50px;
+        &__wrapper {
+          grid-template-columns: 200px 260px;
+          grid-template-rows: 580px;
+        }
+        &__container {
+          gap: 20px;
+        }
+      }
+      .collect {
+        padding: 56px 65px;
+      }
+      .lead {
+        padding: 50px;
+        &__grid {
+          grid-template-columns: 200px 190px;
+          grid-template-rows: 550px;
+          gap: 10px;
+        }
+        &__desc {
+          font-size: 22px;
+        }
+        &__san {
+          grid-template-columns: 135px 150px;
+        }
+      }
+      .power {
+        padding: 50px;
+        &__title {
+          font-size: 70px;
+          line-height: 70px;
+        }
+        &__desc {
+          padding-top: 95px;
+        }
+        &__read {
+          bottom: 100px;
+        }
+        &__btn {
+          bottom: 20px;
+        }
+      }
+      .blog {
+        padding: 50px;
+      }
+      .touch {
+        padding: 50px;
+        &__wrapper {
+          grid-template-columns: 1fr;
+        }
+        &__item1 {
+          &__title {
+            font-size: 44px;
+            max-width: 440px;
+            padding-top: 48px;
+            padding-left: 57px;
+          }
+          &__subtitle {
+            padding-left: 57px;
+            max-width: 320px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  body {
+    header {
+      .header {
+        &__menu {
+          display: none;
+        }
+      }
+      .main {
+        &__title {
+          font-size: 42px;
+          line-height: 48px;
+        }
+      }
+      .cookies {
+        width: 280px;
+        min-height: 100px;
+        &__subtitle {
+          font-size: 13px;
+          line-height: 16px;
+          max-width: 210px;
+          margin-top: 10px;
+        }
+        &__btn {
+          font-size: 12px;
+          line-height: 8px;
+        }
+      }
+    }
+
+    main {
+      .get {
+        &__title {
+          font-size: 36px;
+          line-height: 42px;
+        }
+        &__wrapper {
+          grid-template-columns: 1fr;
+        }
+      }
+
+      .collect {
+        padding: 50px;
+        min-height: 650px;
+        &__title {
+          padding-left: 0;
+          font-size: 36px;
+          line-height: 42px;
+        }
+        &__subtitle {
+          padding-left: 0;
+        }
+        &__data {
+          left: 30px;
+        }
+        &__circle {
+          top: 89px;
+        }
+        &__diagrama {
+          top: 89px;
+        }
+      }
+
+      .lead {
+        &__title {
+          font-size: 36px;
+          line-height: 42px;
+        }
+        &__desc {
+          font-size: 18px;
+          line-height: 30px;
+        }
+        &__grid {
+          margin-top: 70px;
+          grid-template-columns: 1fr;
+          grid-template-rows: 200px;
+        }
+        &__san {
+          grid-template-columns: 1fr;
+        }
+      }
+
+      .power {
+        min-height: 720px;
+        &__title {
+          font-size: 36px;
+          line-height: 42px;
+        }
+        &__read {
+          right: 35px;
+        }
+        &__btn {
+          right: 75px;
+        }
+      }
+
+      .touch {
+        &__item1 {
+          &__title {
+            font-size: 23px;
+            line-height: 33px;
+            padding-left: 28px;
+          }
+          &__subtitle {
+            padding-top: 210px;
+            padding-left: 28px;
+            max-width: 160px;
+          }
+        }
+        &__item2 {
+          form {
+            input {
+              font-size: 12px;
+              padding-left: 20px;
+            }
+            textarea {
+              font-size: 12px;
+              padding-left: 20px;
+            }
+          }
+        }
+      }
+    }
+
+    footer {
+      .footer {
+        padding: 50px;
+        &__wrapper {
+          gap: 50px;
+        }
+        &__group {
+          padding-top: 78px;
+        }
+      }
+    }
+  }
+}
